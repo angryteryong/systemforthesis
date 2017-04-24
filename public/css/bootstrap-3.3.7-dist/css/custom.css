@@ -1,0 +1,264 @@
+ 	    .sidenav {
+	      background-color: #f1f1f1;
+	      height: auto;
+	    }
+	    
+	    /* Set black background color, white text and some padding */
+	    footer {
+	      padding: 15px;
+	    }
+	    
+	    /* On small screens, set height to 'auto' for sidenav and grid */
+	    @media screen and (max-width: 767px) {
+	      .sidenav {
+	        height: auto;
+	        padding: 15px;
+	      }
+	      .row.content {height: auto;} 
+	    }
+
+	    #myFooter{
+	    	text-align: center;
+	    	color: #000000;
+	    	height: 28px;
+	    }
+
+	    #profileHR{
+	    	height: 10px;
+			border: 0;
+			box-shadow: 0 6px 6px -6px #8c8c8c inset;
+	    }
+
+	    .schoolImage:hover{
+    		opacity: 0.6;
+	    }
+
+	    .separator{
+	    	border: 0;
+	    	height: 1px;
+	    	background: #333;
+	    	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	    }
+
+	    .dividers{
+	    	height: 12px; 
+	    	border: 0; 
+	    	box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+	    }
+
+	    .timeUpdated{
+	    	margin-top: -38;
+	    	margin-right: 20;
+	    }
+
+	    .infoPanels{
+	    	background-color: #F8F8F8;
+	    }
+
+	    .infoPanelAll{
+	    	box-shadow: 0px 1px 9px grey;
+	    	/*margin-left: -20;
+	    	width: 103%;*/
+	    }
+
+	    .infoPanelAll2{
+	    	box-shadow: 0px 1px 4px grey;
+	    }
+
+	    .leftPanel{
+	    	background-color: #D8D8D8;
+	    	/*margin-left: -16;
+	    	margin-top: -1;*/
+	    }
+
+	    .stStatus{
+	    	margin-top: 0;
+	    	/*color: #b94a48;*/
+	    	color: #468847; /* green */
+
+	    }
+
+	    .stPhoto{
+	    	margin-left: -1;
+	    }
+
+	  	.alProfile{
+	  		margin-top: 5px;
+	  	}
+
+	  	#companyLogo{
+	  		height: 42; width: 42; margin-top: -11; margin-left: -10;	
+	  	}
+
+	  	.btnEdits{
+	  		margin-top: -78;
+	    	margin-right: 20;
+	  	}
+	
+		#spSummary{
+			background-color: #F8F8F8;
+		}
+
+		#spSummarySave{
+			display: none;
+		}
+
+		#spSummarySaveCancel{
+			display: none;
+		}
+
+		#spExperienceSave{
+			display: none;
+		}
+
+		#spExperienceSaveCancel{
+			display: none;
+		}
+
+		#spEducationSave{
+			display: none;
+		}
+
+		#spEducationSaveCancel{
+			display: none;
+		}
+
+		.js-auto-size{
+			box-sizing: border-box;
+			max-height: 160px;
+			min-height: 38px;
+			overflow-x: hidden; 
+		}
+
+		.spSkills{
+			font-size: 20;
+		}
+
+		.btnEditSkills{
+			margin-bottom: 5;
+		}
+
+		.btnDeleteSkills{
+			margin-bottom: 5;
+		}
+
+		.skillsSave{
+			display: none;
+			margin-top: -15;
+		}
+
+		.skillsSaveCancel{
+			display: none;
+			margin-top: -15;
+		}
+
+		#btnEditInfo{
+			margin-top: -35;
+		}
+
+		#spProfileSave{
+			display: none;
+		}
+
+/*
+		#statusSelect{
+			display: none;
+		}*/
+
+		.statusOptions{
+			
+		}
+
+		#sPhoto:hover{
+			opacity: 0.8;
+		}
+
+		#btnLogin{
+			height: 43px;
+		}
+
+		#spProfileSaveCancel{
+			display: none;
+		}
+
+		.myImage{
+			position: relative;
+			width: 100%;
+		}
+
+		.myPP{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: none;
+		}
+
+		.myImage:hover .overlay{
+		  opacity: 1;
+		}
+
+		.imageText{
+			color: black;
+			/*font-size: 20px;*/
+			position: absolute;
+			top: 90%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+		}
+
+		.loginPanel{
+			box-shadow: 0px 1px 9px grey;
+		}
+
+		.chats{
+			width: 97%;
+			margin: auto;
+		}
+
+		.chattimes{
+			font-size: 10px;
+			color: #909090;
+		}
+
+		#scrollStudentChatstoBottom{
+			margin-left: 35px;
+			margin-top: -25px;
+			position: fixed;
+			opacity: 0.7;
+		}
+
+		#scrollCompanyChatstoBottom{
+			margin-left: 35px;
+			margin-top: -25px;
+			position: fixed;
+			opacity: 0.7;
+		}
+
+	.yourchats{
+		color: white;
+		background-color: #06213f;
+		border-radius: 15px 15px 15px 15px;
+	}
+
+	.theirchats{
+		color: black;
+		background-color: #428bca;
+		border-radius: 15px 15px 15px 15px;
+	}
+
+	.deletemodals{
+		margin-top: 100px;
+	}
