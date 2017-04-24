@@ -141,11 +141,11 @@ class StudentsController extends Controller
     }
 
     public function updateProfile(Request $request, Student $student){
-        if(!$request->summary){
-            $student->update(['summary' => 'Summary has not been updated yet']);
-        }else{
+        // if(!$request->summary){
+        //     $student->update(['summary' => 'Summary has not been updated yet']);
+        // }else{
             $student->update($request->all());
-        }
+        // }
     }
 
     public function updatePhoto(Request $request, Student $student){

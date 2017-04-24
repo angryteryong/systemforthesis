@@ -46,7 +46,7 @@
           @if($student->email)
           <li><h4><span class="glyphicon glyphicon-envelope"></span> <font id="spEmail">{{ $student->email }}</font></h4></li>
           @endif
-          <li><h4><span class="glyphicon glyphicon-phone"></span><font id="spNumber"> {{ $student->phone_number }}</font></h4></li>
+          <li><h4><span class="glyphicon glyphicon-phone"></span> <font id="spNumber"> {{ $student->phone_number }}</font></h4></li>
         </ul>
         <button class="btn btn-primary btn-sm" id="spProfileSave" onclick="profileSave({{ session('id') }})">Save</button>
         <button class="btn btn-default btn-sm" id="spProfileSaveCancel" onclick="profileSaveCancel()">Cancel</button>
