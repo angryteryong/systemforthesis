@@ -28,6 +28,7 @@
 				</form>
 			  </div>
 			</div>
+			<p class="alert alert-info"><strong>NOTE: </strong>Only ALUMNI, COMPANY, AND SCHOOL ADMIN can reset password.</p>
 		</div>
 		<div class="col-sm-3"></div>
 	</div>
