@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'mail.cock.li'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'admin@dcgjps.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'admindcgjps@cock.li'),
         'name' => env('MAIL_FROM_NAME', 'ADMIN'),
     ],
 
@@ -84,7 +84,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME', 'dthrcrpz@gmail.com'),
+    'username' => env('MAIL_USERNAME', 'admindcgjps@cock.li'),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD', 'WjmkOTA43$#'),
+    'password' => env('MAIL_PASSWORD', 'qwedqweqwe'),
 
     /*
     |--------------------------------------------------------------------------
