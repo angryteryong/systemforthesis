@@ -17,8 +17,7 @@ class CheckUser
       if($request->session()->get('status') === null){ //if no status
         session()->set('go', 0);
         return redirect('login');
-      }
-      else{ // if status is set
+      }else{ // if status is set
         if($request->session()->get('status') === '0'){ //if 0
           return redirect('login');
           session()->set('go', 0);

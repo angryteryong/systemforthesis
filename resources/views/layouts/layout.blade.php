@@ -270,7 +270,7 @@
 			</div>
 		</div>
 		<footer class="footer">
-		  <p id='myFooter' style="color: white">Lyceum-Northwestern University <span class="glyphicon glyphicon-option-vertical"></span> Dagupan City, Pangasinan</p>
+		  <p id='myFooter' style="color: white">College of Information and Computing Studies <span class="glyphicon glyphicon-option-vertical"></span> Dagupan City, Pangasinan</p>
 		</footer>
 	</body>
 </html>
