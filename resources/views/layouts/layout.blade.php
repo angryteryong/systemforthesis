@@ -16,7 +16,7 @@
 		<script type="text/javascript" src="/js/ajax.js"></script>
 		<script type="text/javascript" src="/js/navbar.js"></script>
 
-		<title>@yield('title')</title>
+		<title>Graduates Job Placement System for Dagupan City</title>
 	</head>
 	<body>
 		<div class='container-fluid mainContainer'>
